@@ -1,0 +1,229 @@
+@media (max-width:1100px){
+    .showcase::before{
+        /* display: none; */
+    }
+    .showcase{
+        height: 650px;
+    }
+    .showcase .showcase-form{
+        /* bottom: 0; */
+        /* margin-right: auto; */
+        width: 450px;
+        margin-top: 10px;
+    }
+    .showcase .showcase-container{
+        flex-direction: column;
+
+    }
+    .showcase .showcase-container .showcase-text{
+        /* margin-right: auto; */
+        max-width: 700px;
+
+    }
+
+    .stats .stats-container{
+        height: 550px;
+    }
+    .stats .stats-container .stats-data{
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    .stats .stats-container .stats-data .stats-items{
+        width: 400px;
+        font-size: 2rem;
+    }
+    .stats .stats-container .stats-heading{
+        font-size: 1.6rem;
+        max-width: 900px;
+    }
+}
+@media (max-width:1150px){
+
+    .showcase .showcase-container .showcase-text{
+        height: 700px;
+    }
+    .language{
+        height: 700px;
+
+    }
+    .language .language-container{
+        height: 600px;
+        
+    }
+    .language .language-container .language-data .name{
+        width: 190px;
+        height: 220px;
+    }
+    .language .language-container .language-data .name img{
+        height: 100px;
+    }
+    .language .language-container .language-data .name .name-heading{
+        font: 2rem importent;
+    }
+    
+    .language .language-container .language-data{
+        height: 600px;
+    }
+}
+@media (max-width:880px){
+    .showcase .showcase-form{
+        width: 230px;
+    }
+    .showcase .showcase-form .form-control input{
+        width: 160px;
+    }
+    .stats .stats-container .stats-data .stats-items{
+        width: 600px;
+        height: 160px;
+    }
+    .stats .stats-container .stats-data{
+        height: 700px;
+    }
+    .stats .stats-container{
+        height: 700px;
+    }
+
+    .language{
+        height: 1100px;
+    }
+
+    .language .language-container{
+        height: 1050px;
+    }
+    .language .language-container .language-data{
+        height: 1050px;
+    }
+
+    .install{
+        height: 600px;
+    }
+    .install-container{
+        height: 500px;
+        flex-direction: column;
+    }
+    .install .install-container .install-image{
+        width: 100%;
+    }
+    .install .install-container .install-image img{
+        width: 100%;
+        height: 200px;
+    }
+    .install-container .install-text{
+        width: 80%;
+    }
+    .cloud-hosting{
+        height: 600px;
+    }
+    .cloud-hosting-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .cloud-hosting-container .cloud-hosting-text{
+        font-size: 1rem;
+    }
+    .cloud-hosting-container .cloud-hosting-text .cloud-heading{
+        font-size: 1.5rem;
+    }
+
+    .language{
+        height: 1800px;
+    }
+    .language .language-container{
+        height: 1800px;
+    }
+    .language .language-container .language-data{
+        height: 1700px;
+    }
+    .language .language-container h1{
+        font-size: 1.7rem;
+    }
+    .footer-container .contact{
+        width: 300px;
+        /* border: 2px solid red; */
+        text-align: center;
+        letter-spacing: 8px;
+    }
+    .showcase .showcase-container .showcase-text{
+        /* margin-right: auto; */
+        max-width: 200px;
+
+    }
+
+
+
+
+    /* features */
+
+
+    .features{
+        height: 500px;
+    }
+    .features .features-container{
+        flex-direction: column;
+        height: 500px;
+    }
+    .platform{
+        height: 600px;
+    }
+    .platform .platform-container{
+        height: 600px;
+        flex-direction: column;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .platform .platform-container .platform-heading{
+        max-width: 700px;
+    }
+
+
+    .details{
+        height: 1100px;
+    }
+    .gridd{
+        height: 1100px;
+        grid-template-areas: 
+    'first'
+    'second'
+    'third'
+    'fourth'
+    'fifth'
+    'sixth';
+    }
+    .gridd .box-shodow{
+        flex-direction: column;
+    }
+
+    /* docs */
+
+    .docs{
+        height: 500px;
+    }
+    .docs .docs-container{
+        height: 500px;
+        flex-direction: column;
+    }
+    .docs .docs-container .docs-heading{
+        width: 100%;
+        height: 100px;
+    }
+    .docs .docs-container .docs-heading h1{
+        font-size: 3rem;
+    }
+    .docs .docs-container .docs-heading  p{
+        font-size: 2rem;
+    }
+    .intro{
+        height: 1600px;
+    }
+    .introduction-container{
+        height: 1600px;
+        flex-direction: column;
+    }
+    .intro .introduction-container .instal{
+        height: 1000px;
+        width: 90%;
+    }
+    .introduction-container .essential{
+        width: 90%;
+    }
+}
