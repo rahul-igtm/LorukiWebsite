@@ -66,11 +66,24 @@ a{
     /* justify-self: self-end; */
     /* border: 2px solid red; */
 }
-.container ul li{
-    padding: 3px 30px;
+.container .flex li a{
+    position: relative;
+    /* border: 2px solid; */
+    overflow: hidden;
+    display: block;
 }
-.container .flex a:hover{   
-    border-bottom: 2px solid white;
+.container .flex li a::before{
+    content: "";
+    position:absolute;
+    width: 80px;
+    border-bottom: 3px solid white;
+    right: 80px;
+    bottom: 0;
+    transition: .7s all;
+
+}
+.container .flex li a:hover::before{   
+    right: 0;
 }
 
 /* showcase */
